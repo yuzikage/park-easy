@@ -1,4 +1,4 @@
-# Park Easy - Vehicle Parking App (MAD2 Project)
+# Park Easy - A Vehicle Parking App
 
 ## Technologies Used
 
