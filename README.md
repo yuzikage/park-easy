@@ -6,7 +6,7 @@
 |--------------|--------------------------------------------------------------------------------------------------------|
 | **Backend**  | Python, Flask, Flask-RESTful, Flask-JWT-Extended, Flask-Caching, SQLAlchemy, Celery, Redis |
 | **Frontend** | Vue.js 3, Vite, Vue Router, Chart.js, Bootstrap 5                                    |
-| **Database** | SQLAlchemy ORM                             |
+| **Database** | SQLite with SQLAlchemy ORM                             |
 
 ---
 
