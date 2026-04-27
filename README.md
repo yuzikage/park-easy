@@ -19,23 +19,29 @@
 
 ### Backend Setup
 
-1.  **Create and activate a virtual environment:**
+1.  **Clone the repository:**
+    ```sh
+    https://github.com/yuzikage/park-easy.git
+    cd park-easy
+    ```
+
+2.  **Create and activate a virtual environment:**
     ```sh
     python -m venv .venv
     source .venv/bin/activate  # On Windows: venv\Scripts\activate
     ```
 
-2.  **Install Python dependencies:**
+3.  **Install Python dependencies:**
     *(Note: A `requirements.txt` file should be generated using `pip freeze > requirements.txt`)*
     ```sh
     pip install -r requirements.txt
     ```
 
-3.  **Configure Environment:**
+4.  **Configure Environment:**
     - Ensure your Redis server is running.
     - Update the configuration with your database URI, mail server settings, etc.
 
-4.  **Run the Backend Services:**
+5.  **Run the Backend Services:**
     - **Navigate to the backend folder:**
       ```sh
       cd backend
