@@ -1,0 +1,18 @@
+python3 -m venv .venv
+source .venv/bin/activate
+deactivate
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+pip install -r requirements.txt
+
+npm install
+
+# starting servers
+1. python3 main.py
+2. npm run dev
+3. redis-server --port 6380
+4. celery -A main.celery worker --loglevel=info
+5. celery -A main.celery beat --loglevel=info
+6. ~/go/bin/MailHog
